@@ -66,15 +66,15 @@ class PromptHistory():
 def generate_response(coach, user_input):
     # Select the appropriate API key based on the coach
     if coach == "Brené Brown":
-        openai.api_key = "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"#os.getenv("OPENAI_API_KEY_BRENE_BROWN")
+        openai.api_key = "sk-API.......PnEvEtWqWi4T3BlbkFJEET27DhOB7Vqo1EreJOe"#os.getenv("OPENAI_API_KEY_BRENE_BROWN")
     elif coach == "Tony Robbins":
-        openai.api_key = "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"#os.getenv("OPENAI_API_KEY_TONY_ROBBINS")
+        openai.api_key = "sk-API......iEk7S5LbCptbT3BlbkFJUV01E5Bu96K4SX7eZCWi"#os.getenv("OPENAI_API_KEY_TONY_ROBBINS")
     elif coach == "Nancy Kline":
-        openai.api_key = "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"#os.getenv("OPENAI_API_KEY_NANCY_KLINE")
+        openai.api_key = "sk-API.....kfT3BlbkFJuAZBRko7lzX1Rwxkasmt"#os.getenv("OPENAI_API_KEY_NANCY_KLINE")
     elif coach == "The Buddha":
-        openai.api_key = "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"#os.getenv("OPENAI_API_KEY_THE_BUDDHA")
+        openai.api_key = "sk-API......iuBdBOENB2T3BlbkFJ5Zq2D7Hicu9Pe19j7wWo"#os.getenv("OPENAI_API_KEY_THE_BUDDHA")
     elif coach == "Simon Sinek":
-        openai.api_key = "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"#os.getenv("OPENAI_API_KEY_SIMON_SINEK")
+        openai.api_key = "sk-API.......kSrahSnKrxdT3BlbkFJoOiWnosltymjIKk8N46x"#os.getenv("OPENAI_API_KEY_SIMON_SINEK")
     else:
         return "Invalid coach selected."
     # Define prompt based on the coach
